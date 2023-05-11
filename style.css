@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.services {
+    text-align: center;
+    padding:50px;
+    position: relative;
+}
+
+.services h1 {
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+.container {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.container .cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.container .cards .card {
+    background-color: #e0e0e0;
+    margin: 0 20px;
+    width: 400px;
+    height: 500px;
+    padding-top: 80px;
+}
+
+.container .cards .card img {
+    margin-bottom: 40px;
+    width: 70px; 
+    height: 70px;
+}
+
+.container .cards .card h1 {
+    padding-bottom: 20px;
+}
+
+.container .cards .card p {
+    padding: 0 35px;
+    line-height: 27px;
+    margin-bottom:30px;
+    color: #848484;
+    height:150px;
+}
+
+.container .cards .card a {
+    background-color: #0762b2;
+    padding: 14px 36px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.section {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background-color: #0762b2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section .image {
+    margin-left: 40px;
+}
+
+.section .image img {
+    width: 600px;
+    height: 380px;
+}
+
+.text {
+    padding: 20px 30px 0 30px;
+    color: #FFF;
+}
+.text p {
+    margin: 20px 0;
+    line-height: 27px;
+}
+
+.clients {
+    margin-top: 50px;
+}
+
+.clients-heading {
+    margin: 0 50px;
+}
+.clients-heading, .chevrons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.clients-heading h2 {
+    color: #848484;
+}
+
+.chevrons i {
+    padding: 5px 8px;
+    background-color: #0762b2;
+    margin: 0 2px;
+    color: #fff;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brands img {
+    margin: 0 10px;
+}
